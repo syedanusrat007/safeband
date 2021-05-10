@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "880616841536",
+    "firebase_url": "https://remotemysqlconnection.firebaseio.com",
+    "project_id": "remotemysqlconnection",
+    "storage_bucket": "remotemysqlconnection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880616841536:android:c9dd95242134ccc9",
+        "android_client_info": {
+          "package_name": "com.androiddeft.remotemysqlconnection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880616841536-6v1gs5j5q636om03f51ugble6snarq9s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.androiddeft.remotemysqlconnection",
+            "certificate_hash": "54bba424ed27e6c1c184d02703b475afad7b84c2"
+          }
+        },
+        {
+          "client_id": "880616841536-d8v41e81dvar89ie5gba1vb5gq2rir3u.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "880616841536-d8v41e81dvar89ie5gba1vb5gq2rir3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQBGfrjMf09Lpp8UjdrAqUDkrN6-PDGns"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880616841536-d8v41e81dvar89ie5gba1vb5gq2rir3u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

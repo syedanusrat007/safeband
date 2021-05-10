@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Safe Band User</string>
+    <string name="hitName">Enter your name</string>
+    <string name="hitphn">Enter your phone number</string>
+</resources>

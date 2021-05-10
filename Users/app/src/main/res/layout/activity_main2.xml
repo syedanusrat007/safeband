@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@drawable/pic2">
+
+    <TextView
+        android:id="@+id/tvRegBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="62dp"
+        android:background="@drawable/tv_bg"
+        android:gravity="center"
+        android:padding="@dimen/dip10"
+        android:text="SIGN UP"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/textSize20"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="137dp"
+        android:background="@drawable/ev_bg"
+        android:hint="@string/hitName"
+        android:inputType="text"
+        android:lines="1"
+        android:maxLines="1"
+        android:padding="15dp"
+        android:textSize="@dimen/textSize15" />
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="206dp"
+        android:background="@drawable/ev_bg"
+        android:hint="Enter Your Address"
+        android:inputType="text"
+        android:lines="1"
+
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textSize="@dimen/textSize15" />
+
+    <EditText
+        android:id="@+id/etphn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+
+        android:layout_marginBottom="187dp"
+        android:background="@drawable/ev_bg"
+        android:hint="Enter Your Phone No"
+        android:inputType="phone"
+
+        android:lines="1"
+
+        android:maxLines="1"
+        android:padding="15dp"
+        android:textSize="@dimen/textSize15" />
+
+    <Button
+        android:id="@+id/tvRegBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+
+
+        android:layout_marginBottom="114dp"
+        android:background="@drawable/tv_bg"
+        android:gravity="center"
+        android:onClick="tvRegBtn"
+        android:padding="@dimen/dip10"
+        android:text="DONE"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/textSize20"
+        android:textStyle="bold"
+        tools:ignore="OnClick" />
+
+</RelativeLayout>
